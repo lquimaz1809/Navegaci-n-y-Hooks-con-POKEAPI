@@ -1,6 +1,5 @@
-// src/components/PokemonCard.jsx
 import React from 'react';
-import './PokemonCard.css'; // Asumiremos que crearás algo de CSS básico
+import './PokemonCard.css';
 
 const PokemonCard = ({ pokemon }) => {
   return (
