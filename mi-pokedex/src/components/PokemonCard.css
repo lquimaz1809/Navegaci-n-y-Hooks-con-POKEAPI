@@ -1,0 +1,70 @@
+/* src/components/PokemonCard.css */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    color: #333;
+  }
+  
+  .card img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+  /* Añade esto a tu CSS existente de la carta */
+
+.card {
+  /* ... tus estilos anteriores ... */
+  transition: transform 0.2s, box-shadow 0.2s; /* Suavizar animación */
+  background: white;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02); /* Sube y crece un poco */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Sombra más fuerte */
+  border-color: #ef5350;
+}
+
+/* Un toque visual para los tipos o stats */
+.stats p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.card {
+    /* ... tus estilos anteriores ... */
+    transition: transform 0.2s, box-shadow 0.2s; /* Suavizar animación */
+    background: white;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-color: #ef5350;
+  }
+  .stats p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+  }
